@@ -15,8 +15,23 @@ public class Demo {
               st1.studentCity = "Varanasi";
               st1.studentId = 111;
 
+
               st1.study();
               st1.showFullDetails();
+
+              Student st2 = new Student(12);
+
+              st2.studentName = "shubh";
+              st2.studentCity = "delhi";
+              st2.studentId = 222;
+
+        st2.study();
+        st2.showFullDetails();
+
+
+        Student st3 = new Student(741,"shyam","mumbai");
+        st3.study();
+        st3.showFullDetails();
     }
 
 }
